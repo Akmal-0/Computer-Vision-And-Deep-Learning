@@ -1,0 +1,4 @@
+architecture,mode,best_val_accuracy,best_epoch,epochs_to_90_percent,training_seconds,checkpoint,trainable_params,total_params,epochs_run
+efficientnet_b0,feature,1.0,1,1,16.95156096400001,models/feature.pth,2562,4010110,10
+efficientnet_b0,partial,1.0,1,1,17.016948960000036,models/partial.pth,1131954,4010110,10
+efficientnet_b0,scratch,1.0,8,7,21.43686971699981,models/scratch.pth,4010110,4010110,10
