@@ -1,0 +1,23 @@
+# Dataset gambar dan salinan split
+/P2 - Transfer Learning/dataset/
+/P2 - Transfer Learning/dataset_raw/
+/PJ1/dataset/
+/PJ1/dataset_bbox/
+/PJ1/dataset_bbox_split/
+/PJ1/coco_unduhan/
+/PJ1/dataset_v1/
+/PJ1/hasil_yolo/
+
+# Checkpoint model dan hasil training berukuran besar
+/P2 - Transfer Learning/hasil/models/
+/P2 - Transfer Learning/models/*.pth
+/PJ1/hasil_praktik/
+/PJ1/runs/
+/PJ1/weights/
+/PJ1/*.pt
+*.pth
+
+# Cache dan file sementara
+__pycache__/
+.pytest_cache/
+.~lock.*#

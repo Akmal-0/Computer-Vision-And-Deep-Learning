@@ -1,0 +1,4 @@
+architecture,mode,best_val_accuracy,best_epoch,epochs_to_90_percent,training_seconds,checkpoint,trainable_params,total_params,epochs_run
+resnet50,feature,1.0,2,1,144.36342829199998,hasil/models/feature.pth,6147,23514179,10
+resnet50,partial,1.0,1,1,148.48609135200013,hasil/models/partial.pth,14970883,23514179,10
+resnet50,scratch,1.0,5,1,196.48990929699994,hasil/models/scratch.pth,23514179,23514179,10
