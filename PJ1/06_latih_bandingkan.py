@@ -118,5 +118,8 @@ Path(f"hasil_praktik_{args.nim}.txt").write_text(laporan + "\n", encoding="utf-8
 with open(f"hasil_praktik_{args.nim}.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(hasil[0].keys()))
     w.writeheader()
-    w.writerows(hasil)
+    for r in hasil:
+        row = dict(r)
+        row["bobot"] = f"hasil_praktik/{r['eksperimen']}/weights/best.pt (lokal; tidak disertakan)"
+        w.writerow(row)
 print(f"Tersimpan: hasil_praktik_{args.nim}.txt dan .csv | grafik tiap eksperimen di {PROJECT}/")

@@ -1,4 +1,4 @@
 eksperimen,perubahan,pretrained,mAP50,mAP50-95,precision,recall,inferensi_ms,waktu_latih_menit,imgsz,bobot
-E1_pretrained,-,True,0.995,0.9495,0.9974,0.9972,0.87,9.41,416,/home/akmal/Documents/Computer Vision/PJ1/hasil_praktik/E1_pretrained/weights/best.pt
-E2_scratch,-,False,0.9945,0.9236,0.9948,0.991,0.78,9.45,416,/home/akmal/Documents/Computer Vision/PJ1/hasil_praktik/E2_scratch/weights/best.pt
-E3_tuning,imgsz=640,True,0.9948,0.953,0.9928,0.9965,1.79,13.79,640,/home/akmal/Documents/Computer Vision/PJ1/hasil_praktik/E3_tuning/weights/best.pt
+E1_pretrained,-,True,0.995,0.9495,0.9974,0.9972,0.87,9.41,416,hasil_praktik/E1_pretrained/weights/best.pt (lokal; tidak disertakan)
+E2_scratch,-,False,0.9945,0.9236,0.9948,0.991,0.78,9.45,416,hasil_praktik/E2_scratch/weights/best.pt (lokal; tidak disertakan)
+E3_tuning,imgsz=640,True,0.9948,0.953,0.9928,0.9965,1.79,13.79,640,hasil_praktik/E3_tuning/weights/best.pt (lokal; tidak disertakan)

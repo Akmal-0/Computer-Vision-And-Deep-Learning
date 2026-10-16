@@ -11,10 +11,9 @@
 # Checkpoint model dan hasil training berukuran besar
 /P2 - Transfer Learning/hasil/models/
 /P2 - Transfer Learning/models/*.pth
-/PJ1/hasil_praktik/
 /PJ1/runs/
 /PJ1/weights/
-/PJ1/*.pt
+*.pt
 *.pth
 
 # Cache dan file sementara
